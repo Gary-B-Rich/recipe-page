@@ -1,14 +1,23 @@
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+body {
+    background-color: hsl(30, 54%, 90%);
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%); 
+.containment {
+    display: flex;
 }
 
+.filler {
+    width: 25vw;
+    border: 2px solid yellow
+}
 .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 1px solid plum;
+    width: 50vw;
+    
+    
 }
 
 .omlette-photo {
@@ -48,3 +57,11 @@
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 600, 700
 */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
