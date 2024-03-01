@@ -13,7 +13,6 @@ body {
 
 .filler {
     width: 30vw;
-    border: 1px dashed gray;
 }
 .main-container {
     display: flex;
