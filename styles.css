@@ -1,11 +1,8 @@
-* {
-    
-    padding: 5px;
-    
-}
+
 
 body {
     background-color: hsl(30, 54%, 90%);
+    min-width: 220px;
 }
 
 .containment {
@@ -14,7 +11,7 @@ body {
 }
 
 .filler {
-    width: 25vw;
+    width: 30vw;
     border: 1px dashed gray;
 }
 .main-container {
@@ -22,14 +19,13 @@ body {
     flex-direction: column;
     align-items: center;
     border: 1px solid plum;
-    width: 50vw;
+    width: 40vw;
     min-width: 220px;
     
     
 }
 
 .omlette-photo {
-    border: 1px solid green;
     background-image: url(image-omelette.jpeg);
     background-size:cover;
     background-position: center;
