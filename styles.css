@@ -7,6 +7,14 @@
     color: hsl(228, 45%, 44%); 
 }
 
+.main-container {
+    border: 1px solid plum;
+}
+
+.omlette-photo {
+    border: 1px solid green;
+}
+
 /*
 
 - Mobile: 375px
