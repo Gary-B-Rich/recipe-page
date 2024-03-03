@@ -41,10 +41,6 @@ body {
     
 }
 
-ul:nth-child(1) {
-    color:hsl(332, 51%, 32%);
-}
-
 h1, h2, h3 {
     font-family: url(../recipe-page/fonts/outfit/static/Outfit-Regular.ttf);
     font-style: normal;
@@ -53,6 +49,10 @@ h1, h2, h3 {
 
 h2 {
     color: hsl(14, 45%, 36%);
+}
+#move-me {
+    
+    text-align:start;
 }
 
 h3 {
